@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <title>Sign Up</title>
+    <style>
+        .signup-container {
+            background-color: #fff;
+            background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            margin-left: 30%;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        
+        input {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        
+        button {
+            width: 20%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 25%;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+        
+        button:hover {
+            background-color: #218838;
+        }
+        
+        .login-link {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        
+        .login-link:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav  bar -->
+    <!-- nav -->
+    <nav class="navbar">
+        <div class="nav-item">
+            <a class="navbar-brand" href="#">
+                <img src="https://techlekh.com/wp-content/uploads/2020/11/KTM-RC-200.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top" style="margin-left: 20px" /> Ktm Bike
+            </a>
+        </div>
+        <div class="login-button">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="/">Home</a></li>
+                <li class="nav-item"><a href="/about">About</a></li>
+                <li class="nav-item"><a href="#">Services</a></li>
+                <li class="nav-item"><a href="#">Portfolio</a></li>
+                <li class="nav-item"><a href="/contact">Contact</a></li>
+            </ul>
+            <a href="/login" class="btn btn-dark" style="
+            margin: 10px;
+            border-radius: 20px;
+            height: 30px;
+            font-size: 12px;
+          ">Login</a
+        >
+      </div>
+    </nav>
+
+    <div class="signup-container">
+      <h1>Sign Up</h1>
+      <form action="/signup" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit">Sign Up</button>
+      </form>
+      
+            <p>Already have an account? <a href="/login" class="login-link">Login</a></p>
+
+        </div>
+
+        <!-- footer -->
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://techlekh.com/wp-content/uploads/2020/11/KTM-RC-200.png" alt="" width="200px" height="80px" />
+                    <p>Ktm Bike</p>
+                </div>
+                <!-- location -->
+                <div class="forow contact">
+                    <span class="icon">&#9742;</span>
+                    <span class="text">Contact us: KtmBike@gmail.com</span>
+                </div>
+
+                <div class="forow support">
+                    <span class="icon">&#10071;</span>
+                    <span class="text">24/7 support at ktmsupport@gmail.com</span>
+                </div>
+
+                <div class="forow location">
+                    <span class="icon">&#128205;</span>
+                    <span class="text">Our location: Kathmnandu, City</span>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv8AEBwiyDMvTE6i0rzEnm42boVk_q8K1WSLxrZqU3IQ&s" alt="Facebook" width="40px" height="40px" />
+                    </a>
+                    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSxcp_DXJGa1rGTp8fJscRuWxlWygVoPrjYIRnTKlWhg&s" alt="Twitter" width="40px" height="40px" /></a>
+                    <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRySlNWax9poagY46Uqj9K-i9_jzkS9xd8z_7PH-pA1ug&s" alt="Instagram" width="40px" height="40px" /></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 @Ktm Bike. All rights reserved.</p>
+            </div>
+        </footer>
+
+</body>
+
+</html>

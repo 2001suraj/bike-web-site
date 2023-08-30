@@ -1,0 +1,138 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-item {
+    padding: 15px 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.nav-item:hover {
+    background-color: #858484;
+    height: 34px;
+    transform: translateY(5px);
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    height: 30px;
+}
+
+.login-button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    height: 35px;
+}
+
+.login-button:hover {
+    background-color: #e67e22;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    height: 35px;
+}
+
+.login-button:active {
+    background-color: #d35400;
+    transform: translateY(1px);
+    height: 30px;
+    box-shadow: none;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.footer-logo p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #111;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.forow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* body */
